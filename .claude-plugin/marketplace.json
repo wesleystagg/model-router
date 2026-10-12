@@ -1,0 +1,17 @@
+{
+  "name": "model-router",
+  "owner": {
+    "name": "Wesley Stagg",
+    "url": "https://github.com/wesleystagg"
+  },
+  "metadata": {
+    "description": "Wesley Stagg's Claude Code mods"
+  },
+  "plugins": [
+    {
+      "name": "model-router",
+      "source": "./",
+      "description": "Picks the model and effort for every subagent by having your session's own model judge the task, instead of a fixed model per agent type."
+    }
+  ]
+}

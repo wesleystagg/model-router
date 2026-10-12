@@ -1,0 +1,14 @@
+{
+  "name": "model-router",
+  "version": "0.1.0",
+  "description": "Picks the model and effort for every subagent by having your session's own model judge the task, instead of a fixed model per agent type. /router to pause, check, or read its log.",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "Wesley Stagg",
+    "url": "https://github.com/wesleystagg"
+  },
+  "homepage": "https://github.com/wesleystagg/model-router",
+  "repository": "https://github.com/wesleystagg/model-router",
+  "license": "MIT",
+  "keywords": ["claude-code", "plugin", "subagents", "model", "routing"]
+}
