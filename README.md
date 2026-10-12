@@ -85,8 +85,19 @@ Outcomes in the record:
 
 ## Install
 
-From this folder, as a local marketplace (edits reach a session with
-`/reload-plugins`):
+In a Claude Code terminal session:
+
+```
+/plugin install model-router --marketplace wesleystagg/model-router
+```
+
+Answer `y` to add the marketplace, then pick the **user** scope so it loads in
+every session. It starts routing at once; nothing appears on screen. Run
+`/router` to confirm it is on, and `/router log` after a few delegations to
+read what it decided.
+
+To work on it from a clone, register the clone's folder as a marketplace
+instead, so edits reach a session with `/reload-plugins`:
 
 ```
 claude plugin marketplace add ~/Projects/model-router
